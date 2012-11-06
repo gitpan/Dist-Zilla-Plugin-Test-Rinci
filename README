@@ -1,0 +1,26 @@
+NAME
+    Dist::Zilla::Plugin::Test::Rinci - A release test for Rinci metadata
+
+VERSION
+    version 0.01
+
+DESCRIPTION
+    This is an extension of Dist::Zilla::Plugin::InlineFiles, providing the
+    following files:
+
+      xt/release/rinci.t - a standard Rinci metadata test
+
+    This test uses Test::Rinci to check your Rinci metadata.
+
+ACKNOWLEDGEMENTS
+    Code based on Dist::Zilla::Plugin::PodCoverageTests by RJBS.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
